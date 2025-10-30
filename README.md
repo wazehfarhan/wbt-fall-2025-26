@@ -10,5 +10,21 @@
     <ul> index.html </ul>
     </li>
     <li> portfolio</li>
+    <ol> 
+    <li> css</li>
+    <li> data/images</li>
+    <li> html</li>
+    <li> js</li>
+    </ol>
     <li> practice</li>
+</ol>
+<hr>
+<p>30-october-2025. Lab class </p>
+<br>
+<p> work doing in portfolio folder </p>
+<ol>
+    <li>picture add
+    </li>
+    <li> naming, front size and underling</li>
+   <li> how to go to another folder HTML file</li>
 </ol>
