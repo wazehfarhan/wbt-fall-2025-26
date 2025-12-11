@@ -1,9 +1,74 @@
 <!DOCTYPE html>
-<html>
-<head>
-   
-</head>
-<body>
-    <a href="home/index.html">class name</a>
-</body>
+
+<html lang="en">
+    <head>
+        <title>Practice</title>
+        <link rel="stylesheet" href = "class/class.html">
+    </head>
+    <body>
+        
+        <h2>student form</h2>
+        <fieldset>
+        <form action="#" method="post" enctype="maltipath-formdata">
+            <legend>personal information</legend>
+            <label for="fname">Full name</label>
+            <input type="text" id="fname" name="full_name" required maxlength="40"> <br>
+            <lable for="lname">last name</lable>
+            <input type="text" id="lname" name="last_name" required maxlength="30"> <br>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" requred>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="Female">female</label>
+            <br>
+            <label for="project">Project</label>
+            <select name="reason">
+                <option value="">--Select Project--</option>
+                <option>Database</option>
+                <option>Portfolio Website</option>
+                <option>Library Management System</option>
+            </select>
+            <br>
+            <label for="interest">intertest</label>
+            <input type="checkbox" name="sports" id="interest" required>
+            <label for="sports">sports</label>
+            <input type="checkbox" name="movie" id="interest" required>
+            <label for="movie">movie</label>
+
+
+        </form>
+
+        </fieldset>
+
+
+
+
+
+
+        <h2>Contact Me</h2>
+
+
+
+
+
+<!-- 
+        <form method="get">
+            First Name: <input type="text" name="name" required> <br>
+            Last Name: <input type="text" name="name" required> <br>
+            Email: <input type="email" name="email" required> <br>
+            Company: <input type="text" name="company"> <br>
+            Reason for contact:
+            <input type="radio" name="reason" required>
+            projects
+            <select name="project">
+                <option value="">--select project--</option>
+                <option>Database</option>
+                <option>portfolio web site</option>
+            </select>
+            <br> -->
+
+        </form>
+    </body>
 </html>

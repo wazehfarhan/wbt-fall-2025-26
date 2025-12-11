@@ -30,7 +30,6 @@ input {
     margin-top: 5px;
     margin-bottom: 2px;
     transition: 0.3s;
-    
 }
 select{
     padding: 10px;
@@ -52,7 +51,7 @@ input[type="reset"] {
     height: 30px;
     background-color: #00796b;
     color: white;
-    border: none;
+    border: 100;
     padding: 5px;
     border-radius: 8px;
     font-size: 12px;
@@ -64,9 +63,10 @@ input[type="reset"] {
 input[type="submit"] {
     width: 48%;
     height: 30px;
+    cursor: pointer;
     background-color: #00796b;
     color: white;
-    border: none;
+    border: 100;
     padding: 5px;
     border-radius: 8px;
     font-size: 12px;
